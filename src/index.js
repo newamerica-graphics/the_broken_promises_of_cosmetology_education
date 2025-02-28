@@ -37,7 +37,8 @@ const settings = {
     el.classList.remove('na-dataviz')
 
     let target = document.createElement("script")
-    target.src = "https://new-america.shorthandstories.com/2be160da-1098-42a5-8067-80e566285efa/embed.js"
+    target.src = "https://new-america.shorthandstories.com/78a07e57-00c2-488f-a432-1fd4c7e1c4ed/embed.js"
+    el.appendChild(target)
   },
   'viz__id__epp3': (el) => {
     let a = el.querySelector('.dataviz__title-container')
