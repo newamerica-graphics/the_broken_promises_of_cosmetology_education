@@ -1,8 +1,36 @@
-.na-dataviz {
-  background-color: #efefef;
-  padding: 20px;
-  a {
-    font-weight: normal;
-    color: #209B93;
+.dataviz {
+  margin-left: calc(-50vw + 50%);
+  width: 100vw;
+
+  h1, h2 {
+    font-family: Platform, serif !important;
+    font-weight: 700 !important;
   }
+
+  h3, h4, h5, .Theme-HeaderContainer, .Theme-Story, .Theme-Caption p:not(:empty), .Theme-Footer .Theme-FooterTopLink, .Theme-NavigationLink {
+    font-family: Circular, sans-serif !important;
+  }
+
+  h6, p, .Theme-story p, .Theme-Story .Theme-Footnote p, .Theme-Layer-BodyText p,
+  .Theme-Layer-TextBlock-Inner .Theme-Byline, .Theme-Layer-TextBlock-Inner .Theme-LeadIn, .Theme-Layer-TextBlock-Inner p {
+    font-family: Lyon, serif !important;
+    text-rendering: optimizeLegibility !important;
+  }
+
+  .Theme-FooterLogo--container {
+    display: none !important;
+  }
+
+  .Theme-Story .Theme-Layer-BodyText-Highlight {
+    background-color: #2FBCB322;
+
+    &:hover {
+      background-color: #2FBCB344;
+    }
+
+    .Theme-Layer-BodyText-Highlight--Icon {
+      background-color: #2FBCB3;
+    }
+  }
+
 }
