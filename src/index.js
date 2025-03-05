@@ -1,8 +1,5 @@
 import './index.scss';
 
-// let queue = [];
-// let data = null;
-
 const settings = {
   'viz__id__timeline': (el) => {
     let a = el.querySelector('.dataviz__title-container')
@@ -66,11 +63,6 @@ const settings = {
   },
 };
 
-// fetch('endpoint').then(response => response.json()).then((_data)=>{
-//   data = _data;
-//   for(let i=0; i<queue.length; i++)
-//     queue[i]();
-// });
 
 window.renderDataViz = function(el){
   let id = el.getAttribute('id');

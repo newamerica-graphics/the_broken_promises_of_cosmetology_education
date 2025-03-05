@@ -18,7 +18,11 @@ module.exports = env => {
       new HtmlWebpackPlugin({
         title: "",
         chartIDs: [
-          'viz__id'
+          'viz__id__timeline',
+          'viz__id__epp1',
+          'viz__id__epp2',
+          'viz__id__epp3',
+          'viz__id__epp4',
         ],
         inject: false,
         template: path.resolve(__dirname, "src/index.html")
