@@ -35,7 +35,6 @@ const settings = {
 
     let target = document.createElement("script")
     target.src = "https://new-america.shorthandstories.com/78a07e57-00c2-488f-a432-1fd4c7e1c4ed/embed.js"
-    target.setAttribute('data-id', 'https://new-america.shorthandstories.com/78a07e57-00c2-488f-a432-1fd4c7e1c4ed');
     el.appendChild(target)
   },
   'viz__id__epp3': (el) => {
