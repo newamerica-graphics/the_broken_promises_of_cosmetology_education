@@ -23,6 +23,7 @@ const settings = {
 
     let target = document.createElement("script")
     target.src = "https://new-america.shorthandstories.com/477e4deb-9601-4b8a-8f94-22907091f8ca/embed.js"
+    target.setAttribute('data-id', 'https://new-america.shorthandstories.com/477e4deb-9601-4b8a-8f94-22907091f8ca');
     el.appendChild(target)
   },
   'viz__id__epp2': (el) => {
