@@ -36,6 +36,7 @@ const settings = {
     let target = document.createElement("script")
     target.src = "https://new-america.shorthandstories.com/78a07e57-00c2-488f-a432-1fd4c7e1c4ed/embed.js"
     el.appendChild(target)
+    document.head.appendChild(target)
   },
   'viz__id__epp3': (el) => {
     let a = el.querySelector('.dataviz__title-container')
